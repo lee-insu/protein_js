@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>부위별 단백질</title>
+    <title>단백질</title>
     <link rel="icon" href="../static/img/Meat.ico">
     <link rel="stylesheet" href="../static/css/style.css">
     <script src="https://kit.fontawesome.com/f1def33959.js" crossorigin="anonymous"></script>
@@ -21,13 +21,28 @@
 
 <!-- 배너 -->
    <section class="explain">
-    <img src="../static/img/배너.jpg" alt="">
+    <div id="slide">
+        <ul class="slide-list">
+            <li><img src="/static/img/1.jpg" alt=""></li>
+            <li><img src="/static/img/2.jpg" alt=""></li>
+            <li><img src="/static/img/3.jpg" alt=""></li>
+            <li><img src="/static/img/4.jpg" alt=""></li>
+        </ul>
+        <div class="btn">
+            <div class="prev-banner"><i class="fas fa-caret-left"></i></div>
+            <div class="next-banner"><i class="fas fa-caret-right"></i></div>
+        </div>
+        <div class="auto">
+            <div class="stop"><i class="fas fa-pause"></i></div>
+            <div class="play"><i class="fas fa-play"></i></div>
+        </div>
+    </div>
      <!-- 배너 텍스트  
     
     <div class="explain-container">
            <div class="explain-title"></div>
-           <div class="explain-message"></div> -->
-       </div>
+           <div class="explain-message"></div> 
+       </div>-->
    </section>
 
 <!-- 닭 리스트 -->
@@ -163,6 +178,7 @@
   
    
   <a id="backtotop"></a>
+<script src="../static/js/banner.js"></script>
 <script src="../static/js/main.js"></script>
 <script src="../static/js/scroll.js"></script>
 </body>
